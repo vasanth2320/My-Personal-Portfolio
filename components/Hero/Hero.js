@@ -3,6 +3,7 @@ import Typed from "typed.js";
 import { gsap, Linear } from "gsap";
 import { MENULINKS, TYPED_STRINGS } from "../../constants";
 import styles from "./Hero.module.scss";
+
 import Button from "../Button/Button";
 import Profiles from "../Profiles/Profiles";
 // import lottie from "lottie-web";
@@ -80,6 +81,7 @@ const Hero = () => {
           }
         `}
       </style>
+
       <div className="flex flex-col pt-40 md:pt-0 select-none">
         <h5
           className={`${styles.intro} font-mono font-medium text-indigo-light seq`}
@@ -109,6 +111,7 @@ const Hero = () => {
         className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
         ref={lottieRef}
       ></div>
+
     </section>
   );
 };
